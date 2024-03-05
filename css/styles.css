@@ -1,13 +1,62 @@
 body {
   font-family: Arial, sans-serif;
-  background-color: #f4f4f4;
+  background-color: #C7DCF9;
   margin: 0;
   padding: 20px;
+  font-family: "IBM Plex Sans", sans-serif;
 }
 
 h1 {
   text-align: center;
-  color: #333;
+  color:#0F213B;
+  font-weight: 600;
+}
+
+#listaUsuarios {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+span {
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 20px;
+}
+.user_img {
+  width:100px;
+  height: 100px;
+  margin-left: 20px;
+  margin-top: 1px;
+  border-radius: 5px;
+}
+
+.card_user {
+  width: 30%;
+  padding: 10px;
+  background-color: #3D577A;
+  color: whitesmoke;
+  font-weight: 300;
+  border-radius: 5px;
+  font-size: 16px;
+  
 }
 
 
+.data_img {
+  display: flex;
+  background-color: #8c9fba5b;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.footer {
+  padding: 0px 10px;
+  
+}
+
+.user_data > p {
+  margin-top: -10px
+}
